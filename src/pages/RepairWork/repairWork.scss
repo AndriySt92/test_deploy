@@ -1,0 +1,23 @@
+
+ .consultation_slider {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 406px;
+    animation: repairWorksSlide 10s infinite;
+ }
+  
+ @keyframes repairWorksSlide {
+    0%{
+       background-image: url("../../assets/images/repairWorks/repair-slide-1.jpg");
+    }
+    50%{
+       background-image: url("../../assets/images/repairWorks/repair-slide-2.jpg");
+    }
+    50.01%{
+       background-image: url("../../assets/images/repairWorks/repair-slide-2.jpg");
+    } 
+    100%{
+       background-image: url("../../assets/images/repairWorks/repair-slide-1.jpg");
+    }
+ }

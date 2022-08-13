@@ -1,0 +1,17 @@
+.slick-list{
+    background: linear-gradient(70deg,#cb0d0d00 0,#eaeaea 30%,transparent);
+    .slick_slider_item {
+        display: flex!important;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        img {
+            height: 170px;
+            width: 250px;
+        }
+        h6 {
+            margin: 20px;
+        }
+    }
+
+}

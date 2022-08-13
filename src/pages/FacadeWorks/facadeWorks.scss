@@ -1,0 +1,36 @@
+.facade_work {
+    .consultation_slider {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 406px;
+        animation: facadeWorksSlide 15s infinite;
+     }
+
+     @keyframes facadeWorksSlide {
+        0%{
+           background-image: url("../../assets/images/facadeWorks/facade-slide-1.jpg");
+        }
+     
+        25%{
+           background-image: url("../../assets/images/facadeWorks/facade-slide-2.jpg");
+        }
+        25.01%{
+           background-image: url("../../assets/images/facadeWorks/facade-slide-2.jpg");
+        }
+     
+        75%{
+            background-image: url("../../assets/images/facadeWorks/facade-slide-3.jpg");
+        }
+     
+        75.01%{
+                  background-image: url("../../assets/images/facadeWorks/facade-slide-3.jpg");
+        }
+     
+        100%{
+           background-image: url("../../assets/images/facadeWorks/facade-slide-1.jpg");
+        }
+     }
+}
+
+  

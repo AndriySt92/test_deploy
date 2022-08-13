@@ -1,0 +1,33 @@
+.servises_list {
+    a{
+        color: var(--color-blue);
+        &:hover {
+            color: var(--color-yellow)!important;
+        }
+    }
+
+    .servises_item {
+        display: flex;
+        align-items: center;
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        width: 100%;
+        &_img {
+            height: 240px;
+            width: 360px;
+            margin: 0px 50px 0px 0px;
+            box-shadow: 3px 3px 3px rgba(25, 25, 30, 0.3);
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                cursor: pointer;
+            }
+            &:hover {
+                background: #fff;
+                opacity: 0.8;
+            }
+        }
+    }
+}

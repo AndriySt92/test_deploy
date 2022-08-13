@@ -1,0 +1,21 @@
+.project {
+    .project_title{
+        margin-bottom: 30px!important;
+    }
+    .project_left_desc{
+        margin-bottom: 60px;
+    }
+    .right_info_btn{
+        width: 100%;
+        padding: 10px;
+        font-size: 16px;
+        text-transform: uppercase;
+        background-color: var(--color-blue);
+        border: none;
+        outline: none;
+        
+        &:hover {
+            background-color: var(--color-blue-hover);
+        }
+    }
+}

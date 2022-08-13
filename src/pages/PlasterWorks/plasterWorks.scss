@@ -1,0 +1,76 @@
+.plaster_work {
+    .consultation_slider {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 406px;
+        animation: plasterWorksSlide 15s infinite;
+     }
+
+     @keyframes plasterWorksSlide {
+        0%{
+           background-image: url("../../assets/images/plasterWorks/plaster-works-slider-1.jpg");
+        }
+     
+        // 25%{
+        //    background-image: url("../../assets/images/repair-2.jpg");
+        // }
+     
+        // 25.1%{
+        //    background-image: url("../../assets/images/repair-2.jpg");
+        // }
+     
+        25%{
+           background-image: url("../../assets/images/plasterWorks/plaster-work-slider-2.webp");
+        }
+        25.01%{
+           background-image: url("../../assets/images/plasterWorks/plaster-work-slider-2.webp");
+        }
+     
+        75%{
+            background-image: url("../../assets/images/plasterWorks/plaster-works-slider-3.webp");
+        }
+     
+        75.01%{
+                  background-image: url("../../assets/images/plasterWorks/plaster-works-slider-3.webp");
+        }
+     
+        100%{
+           background-image: url("../../assets/images/plasterWorks/plaster-works-slider-1.jpg");
+        }
+     }
+}
+
+  
+ @keyframes plasterWorksSlide {
+    0%{
+       background-image: url("../../assets/images/plasterWorks/plaster-works-slider-1.jpg");
+    }
+ 
+    // 25%{
+    //    background-image: url("../../assets/images/repair-2.jpg");
+    // }
+ 
+    // 25.1%{
+    //    background-image: url("../../assets/images/repair-2.jpg");
+    // }
+ 
+    25%{
+       background-image: url("../../assets/images/plasterWorks/plaster-work-slider-2.webp");
+    }
+    25.01%{
+       background-image: url("../../assets/images/plasterWorks/plaster-work-slider-2.webp");
+    }
+ 
+    75%{
+        background-image: url("../../assets/images/plasterWorks/plaster-works-slider-3.webp");
+    }
+ 
+    75.01%{
+              background-image: url("../../assets/images/plasterWorks/plaster-works-slider-3.webp");
+    }
+ 
+    100%{
+       background-image: url("../../assets/images/plasterWorks/plaster-works-slider-1.jpg");
+    }
+ }

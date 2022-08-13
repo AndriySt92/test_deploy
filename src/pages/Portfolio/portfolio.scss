@@ -1,0 +1,39 @@
+.portfolio{
+    .projects_desc{
+        li{
+            padding: 8px 0px;
+        }
+        p{
+            text-shadow: 0px 0px 0px;
+            line-height: 180%;
+        }
+     }
+    
+     nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 30px;
+        .pagination{
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+      }
+    
+      .page-link{
+        background-color: #fff;
+        color: var(--color-blue);
+        border-top-right-radius:none;
+        border-bottom-right-radius: none;
+        transition: all .5 ease-in-out;
+        &:hover{
+           background-color: var(--color-blue);
+           color: #fff;
+        }
+        &.active{
+            background-color: var(--color-blue);
+            color: #fff;
+        }
+    }
+}
+  

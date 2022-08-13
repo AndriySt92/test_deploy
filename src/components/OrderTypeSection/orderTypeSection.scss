@@ -1,0 +1,99 @@
+.orderType{
+    margin-top: 40px;
+    .order_type_content{
+       transition: all 0.3s ease 0s;
+       margin-bottom: 20px;
+       background: linear-gradient(180deg, #F5F5F6 0%, rgba(204, 207, 215, 0) 100%), #EFF1F3;
+       color: #000000 !important;
+       padding: 10px 20px;
+       text-align: center;
+       position: relative;
+       cursor: pointer;
+       h3 {
+          font-size: 30px !important;
+          font-weight: 300 !important;
+          padding: 40px 0 5px 0px !important;
+       }
+       p{
+          font-size: 20px;
+          font-weight: 300;
+          padding: 0 0 0 0px;
+          text-align: center;
+          margin: 0 0 10px !important;
+       }
+       ul{
+          list-style: none;
+          padding: 0 !important;
+ 
+          li{
+             display: block;
+             font-size: 22px;
+             font-weight: 300;
+             font-family: 'Roboto Condensed', sans-serif;
+             outline: medium none;
+             padding: 10px 0 10px 0px;
+             position: relative;
+             cursor: pointer;
+             &:hover {
+                background-color: var(--color-yellow);
+             }
+          }
+       }
+       .order_btn{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background: var(--color-blue);
+          color: #fff;
+          max-width: 350px;
+          width: 100%;
+          padding: 15px 20px;
+          margin: 10px auto 20px;
+          border-radius: 3px;
+          h6{
+             font-size: 22px;
+             font-weight: 200;
+          }
+          &:hover{
+             background: #1e4262;
+          }
+       }
+       &:hover {
+          transform: scale(1.02);
+       }
+       .popular-label {
+          height: 130px;
+          overflow: hidden;
+          position: absolute;
+          right: -1px;
+          top: -1px;
+          width: 90px;
+          .tag{
+             background-color: var(--color-yellow);
+             color: #fff;
+             height: 70px;
+             line-height: 95px;
+             text-align: center;
+             text-transform: uppercase;
+             -webkit-transform: rotate(45deg);
+             -moz-transform: rotate(45deg);
+             -o-transform: rotate(45deg);
+             -ms-transform: rotate(45deg);
+             transform: rotate(45deg);
+             width: 170px;
+             span{
+                font-size: 16px;
+                left: -20px;
+                position: relative;
+             }
+          }
+       }
+ 
+    }
+ 
+    img{
+       max-width: 100% !important;
+       height: auto;
+       width: 100%;
+    }
+  }

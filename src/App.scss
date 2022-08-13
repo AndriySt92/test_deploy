@@ -1,0 +1,45 @@
+.app{
+    // position: relative;
+    // min-height: 100%;
+    // height: fit-content;
+}
+footer{
+    bottom: 0;
+}
+
+
+.page_title {
+        color: #333;
+        text-align: left;
+        margin-top: 100px !important;
+        margin-bottom: 60px !important;
+        h2{
+            line-height: 38px !important;
+            padding-left: 15px;
+            margin-bottom:15px;
+            font-size: 28px !important;
+            position: relative;
+            &::before {
+                position: absolute;
+                content: "";
+                display: block;
+                top: 0;
+                left: 0;
+                width: 3px;
+                height: 100%;
+                background: var(--color-yellow);
+                transition: width 5s ease-in;
+            }
+        }
+        // &::before {
+        //     position: absolute;
+        //     content: "";
+        //     display: block;
+        //     top: 0;
+        //     left: 0;
+        //     width: 3px;
+        //     height: 100%;
+        //     background: var(--color-yellow);
+        //     transition: width 5s ease-in;
+        // }
+}
